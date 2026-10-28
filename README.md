@@ -85,7 +85,7 @@ docs/             Images and my learning log
 
 1. Copy `.env.example` to `.env` and fill in your own values (never commit `.env`).
 2. `python -m venv .venv`, activate it, then `pip install -r requirements.txt`.
-3. Generate data: <!-- TODO: your command, e.g. `python data_generator/generate_all.py` -->
+3. Generate data: `python data_generator/generate_all.py`, then check it with `pytest`.
 4. Create the Azure resources and Databricks objects as described in `sql/` and `pipelines/`.
 5. Run the Lakeflow Job.
 
