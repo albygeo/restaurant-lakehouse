@@ -1,0 +1,22 @@
+# Secrets: never commit these
+.env
+*.pem
+*.key
+.databrickscfg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated data (recreate it with the data generator)
+data_generator/data/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
